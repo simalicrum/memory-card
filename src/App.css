@@ -1,3 +1,6 @@
-.thing {
-  background: blue;
+#cats {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px;
+  column-gap: 10px;
+  row-gap: 10px;
 }

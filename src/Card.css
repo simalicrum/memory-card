@@ -1,0 +1,10 @@
+.cat-picture {
+  height: 200px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
