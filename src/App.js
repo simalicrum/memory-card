@@ -36,7 +36,6 @@ const App = () => {
     return randomIndex.map((i) => array[i]);
   };
   const checkClicks = (cat) => {
-    console.log(cat);
     if (clickedCats.some((i) => cat === i)) {
       setClickedCats([]);
       if (score > highScore) {
